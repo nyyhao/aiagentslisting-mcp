@@ -1,0 +1,37 @@
+{
+  "name": "aiagentslisting-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for AI Agents Listing: search, compare and find alternatives across a directory of AI agents, MCP servers and agent skills.",
+  "mcpName": "io.github.nyyhao/aiagentslisting",
+  "type": "module",
+  "bin": {
+    "aiagentslisting-mcp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "ai-agents",
+    "agent-skills",
+    "directory",
+    "aggregator"
+  ],
+  "homepage": "https://aiagentslisting.com/mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyyhao/aiagentslisting-mcp.git"
+  },
+  "license": "MIT",
+  "author": "AI Agents Listing (https://aiagentslisting.com)"
+}

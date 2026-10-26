@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.nyyhao/aiagentslisting",
+  "title": "AI Agents Listing",
+  "description": "Search, compare and find alternatives across a directory of AI agents, MCP servers and skills.",
+  "version": "1.0.0",
+  "websiteUrl": "https://aiagentslisting.com/mcp",
+  "repository": {
+    "url": "https://github.com/nyyhao/aiagentslisting-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://aiagentslisting.com/favicon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "128x128"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aiagentslisting.com/api/mcp"
+    }
+  ]
+}
